@@ -1,0 +1,70 @@
+INFO 2024-10-17 11:25:52,670 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 11:28:45,994 basehttp "GET /admin/ HTTP/1.1" 200 21479
+INFO 2024-10-17 11:31:49,590 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-17 11:31:51,348 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 11:33:24,498 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-17 11:33:26,299 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 11:33:47,108 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-17 11:33:48,957 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-17 11:35:44,497 log Method Not Allowed: /jwt/token/
+WARNING 2024-10-17 11:35:44,499 basehttp "GET /jwt/token/ HTTP/1.1" 405 20822
+INFO 2024-10-17 11:35:44,546 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,557 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,560 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,562 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,564 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,566 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,572 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,576 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,576 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,577 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,579 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-17 11:35:44,650 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2024-10-17 11:36:31,521 log Unauthorized: /items/
+WARNING 2024-10-17 11:36:31,522 basehttp "GET /items/ HTTP/1.1" 401 16937
+INFO 2024-10-17 12:11:47,327 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-17 12:16:40,706 log Method Not Allowed: /jwt/token/
+WARNING 2024-10-17 12:16:40,707 basehttp "GET /jwt/token/ HTTP/1.1" 405 20822
+INFO 2024-10-17 12:16:40,730 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 12:16:40,730 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:16:40,786 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 12:16:40,796 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:16:54,471 basehttp "POST /jwt/token/ HTTP/1.1" 200 21266
+INFO 2024-10-17 12:19:10,954 basehttp "POST /items/ HTTP/1.1" 201 72
+INFO 2024-10-17 12:19:20,495 basehttp "GET /admin/ HTTP/1.1" 200 21479
+INFO 2024-10-17 12:19:25,828 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 24045
+INFO 2024-10-17 12:19:25,862 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,869 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,873 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,874 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,878 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,878 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,881 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,911 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,916 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:25,924 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:26,067 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 12:19:26,118 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:38,982 basehttp "GET /admin/inventory_app/item/4/change/ HTTP/1.1" 200 24495
+INFO 2024-10-17 12:19:39,010 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:39,010 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:39,023 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:39,025 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-17 12:19:39,172 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 12:27:56,694 basehttp "POST /jwt/token/ HTTP/1.1" 200 21266
+INFO 2024-10-17 12:28:27,161 basehttp "POST /items/ HTTP/1.1" 201 76
+INFO 2024-10-17 12:29:26,166 basehttp "GET /admin/inventory_app/item/4/change/ HTTP/1.1" 200 24495
+INFO 2024-10-17 12:29:26,318 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 12:29:28,636 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 24311
+INFO 2024-10-17 12:29:28,789 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 12:29:32,073 basehttp "GET /admin/inventory_app/item/5/change/ HTTP/1.1" 200 24481
+INFO 2024-10-17 12:29:32,245 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-10-17 12:31:15,512 log Unauthorized: /items/4/
+WARNING 2024-10-17 12:31:15,514 basehttp "GET /items/4/ HTTP/1.1" 401 18354
+INFO 2024-10-17 12:31:55,772 basehttp "GET /items/4/ HTTP/1.1" 200 72
+INFO 2024-10-17 12:32:08,621 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 12:32:10,513 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 12:32:20,311 basehttp "GET /items/4/ HTTP/1.1" 200 21362
+INFO 2024-10-17 12:32:25,036 basehttp "GET /__debug__/render_panel/?store_id=d108c4cd25c543aca698d8ba60e4ae2e&panel_id=CachePanel HTTP/1.1" 200 3879
+INFO 2024-10-17 12:34:33,871 basehttp "PUT /items/4/ HTTP/1.1" 200 87
+INFO 2024-10-17 12:34:47,938 basehttp "DELETE /items/4/ HTTP/1.1" 204 39

@@ -1,0 +1,1040 @@
+INFO 2024-10-16 18:18:19,295 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:29:21,422 basehttp "GET / HTTP/1.1" 200 12068
+WARNING 2024-10-16 18:29:21,795 log Not Found: /favicon.ico
+WARNING 2024-10-16 18:29:21,796 basehttp "GET /favicon.ico HTTP/1.1" 404 2219
+INFO 2024-10-16 18:29:26,548 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 18:29:26,769 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2024-10-16 18:29:27,121 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-10-16 18:29:27,161 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-10-16 18:29:27,170 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-10-16 18:29:27,173 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-10-16 18:29:27,178 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-10-16 18:29:27,185 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-10-16 18:29:27,230 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-10-16 18:29:36,443 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-10-16 18:29:36,601 basehttp "GET /admin/ HTTP/1.1" 200 5856
+INFO 2024-10-16 18:29:36,631 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-10-16 18:29:36,652 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-10-16 18:29:36,653 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-10-16 18:30:26,036 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 18:30:27,663 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 18:32:55,776 log Not Found: /items/
+WARNING 2024-10-16 18:32:55,779 basehttp "GET /items/ HTTP/1.1" 404 2566
+INFO 2024-10-16 18:33:54,100 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 18:33:55,747 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:34:25,858 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 18:34:27,632 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:34:39,088 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 18:34:40,661 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:35:15,303 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 18:35:16,879 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 18:35:21,695 log Unauthorized: /items/
+WARNING 2024-10-16 18:35:21,696 basehttp "GET /items/ HTTP/1.1" 401 3747
+INFO 2024-10-16 18:35:22,070 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-16 18:35:22,083 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-16 18:35:22,104 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-16 18:35:22,105 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-16 18:35:22,127 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-16 18:35:22,131 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-16 18:35:22,149 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-16 18:35:22,152 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-10-16 18:35:22,164 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-16 18:35:22,178 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-16 18:35:22,204 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-16 18:35:22,220 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-16 18:35:49,305 autoreload D:\Inventory_assignment\inventory_app\urls.py changed, reloading.
+INFO 2024-10-16 18:35:50,971 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 18:35:52,089 log Unauthorized: /items/
+WARNING 2024-10-16 18:35:52,091 basehttp "GET /items/ HTTP/1.1" 401 3747
+WARNING 2024-10-16 18:35:54,718 log Unauthorized: /items/
+WARNING 2024-10-16 18:35:54,720 basehttp "GET /items/ HTTP/1.1" 401 3747
+WARNING 2024-10-16 18:36:43,520 log Method Not Allowed: /api/token/
+WARNING 2024-10-16 18:36:43,521 basehttp "GET /api/token/ HTTP/1.1" 405 7609
+INFO 2024-10-16 18:36:59,982 basehttp "POST /api/token/ HTTP/1.1" 200 8053
+WARNING 2024-10-16 18:38:17,226 log Method Not Allowed: /items/
+WARNING 2024-10-16 18:38:17,227 basehttp "GET /items/ HTTP/1.1" 405 40
+INFO 2024-10-16 18:39:35,696 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 18:39:37,390 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:40:49,230 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 18:40:50,800 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:42:02,469 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 18:42:04,086 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:42:39,449 autoreload D:\Inventory_assignment\inventory_app\urls.py changed, reloading.
+INFO 2024-10-16 18:42:41,112 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 18:42:55,599 log Not Found: /ListItems/
+WARNING 2024-10-16 18:42:55,600 basehttp "GET /ListItems/ HTTP/1.1" 404 3354
+INFO 2024-10-16 18:43:24,571 autoreload D:\Inventory_assignment\inventory_app\urls.py changed, reloading.
+INFO 2024-10-16 18:43:26,451 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 18:43:29,205 log Unauthorized: /ListItems/
+WARNING 2024-10-16 18:43:29,206 basehttp "GET /ListItems/ HTTP/1.1" 401 183
+INFO 2024-10-16 18:45:14,669 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 18:47:36,250 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:47:41,908 basehttp "GET /admin/ HTTP/1.1" 200 5856
+INFO 2024-10-16 18:47:45,538 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11063
+INFO 2024-10-16 18:47:45,558 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:45,560 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:45,573 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:45,573 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:45,579 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:45,769 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 18:47:45,916 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-10-16 18:47:45,921 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-10-16 18:47:45,954 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-10-16 18:47:45,959 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-10-16 18:47:45,960 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-10-16 18:47:45,960 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-10-16 18:47:45,981 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-10-16 18:47:45,982 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-10-16 18:47:46,010 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-10-16 18:47:46,047 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-10-16 18:47:46,054 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-16 18:47:46,091 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-10-16 18:47:46,166 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-10-16 18:47:46,212 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-10-16 18:47:46,217 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-10-16 18:47:46,220 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-10-16 18:47:49,039 basehttp "GET /admin/ HTTP/1.1" 200 5856
+INFO 2024-10-16 18:48:37,868 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 18:48:39,564 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:49:12,522 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:49:25,618 basehttp "GET /admin/ HTTP/1.1" 200 7438
+INFO 2024-10-16 18:49:25,634 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-16 18:49:29,498 basehttp "GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 8752
+INFO 2024-10-16 18:49:29,620 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 18:49:31,630 basehttp "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 8570
+INFO 2024-10-16 18:49:33,121 basehttp "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 8570
+INFO 2024-10-16 18:49:34,258 basehttp "GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 8752
+INFO 2024-10-16 18:49:34,367 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2024-10-16 18:49:52,488 log Internal Server Error: /api/token/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework_simplejwt\views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework_simplejwt\serializers.py", line 75, in validate
+    refresh = self.get_token(self.user)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework_simplejwt\serializers.py", line 66, in get_token
+    return cls.token_class.for_user(user)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 283, in for_user
+    token = super().for_user(user)  # type: ignore
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 203, in for_user
+    user_id = getattr(user, api_settings.USER_ID_FIELD)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'user_id'
+ERROR 2024-10-16 18:49:52,515 basehttp "POST /api/token/ HTTP/1.1" 500 124132
+INFO 2024-10-16 18:53:16,506 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 18:53:18,188 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:53:24,657 basehttp "POST /api/token/ HTTP/1.1" 200 8053
+INFO 2024-10-16 18:53:32,558 basehttp "GET /admin/token_blacklist/blacklistedtoken/ HTTP/1.1" 200 8752
+INFO 2024-10-16 18:53:32,680 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 18:53:32,710 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 18:53:35,294 basehttp "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 9793
+INFO 2024-10-16 18:54:31,249 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 18:55:51,323 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 18:55:53,118 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 18:56:05,351 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 18:56:07,038 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 19:22:04,182 log Not Found: /Items/
+WARNING 2024-10-16 19:22:04,184 basehttp "POST /Items/ HTTP/1.1" 404 3344
+WARNING 2024-10-16 19:22:38,727 log Unauthorized: /items/
+WARNING 2024-10-16 19:22:38,728 basehttp "POST /items/ HTTP/1.1" 401 58
+INFO 2024-10-16 19:22:49,953 basehttp "POST /items/ HTTP/1.1" 201 78
+INFO 2024-10-16 19:23:03,266 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:23:46,869 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:24:26,034 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:25:18,797 autoreload D:\Inventory_assignment\inventory_app\admin.py changed, reloading.
+INFO 2024-10-16 19:25:20,724 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:25:25,469 basehttp "GET /admin/token_blacklist/outstandingtoken/ HTTP/1.1" 200 10483
+INFO 2024-10-16 19:25:25,492 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,500 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,506 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,506 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,510 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,511 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,512 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,513 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,515 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,519 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,523 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,523 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,525 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,531 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,536 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,546 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,547 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,564 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:25,566 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:27,286 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 10294
+INFO 2024-10-16 19:25:27,411 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 19:25:27,455 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-16 19:25:29,712 basehttp "GET /admin/inventory_app/item/1/change/ HTTP/1.1" 200 11265
+INFO 2024-10-16 19:25:29,836 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 19:25:29,900 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2024-10-16 19:25:29,909 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-10-16 19:25:29,919 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-10-16 19:25:29,930 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-10-16 19:26:40,043 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:26:41,737 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:26:45,961 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:27:17,679 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:27:19,403 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:27:20,435 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:28:01,846 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:28:03,479 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:28:06,785 basehttp "GET /ListItems/ HTTP/1.1" 200 48
+INFO 2024-10-16 19:32:05,448 autoreload Watching for file changes with StatReloader
+
+INFO 2024-10-16 19:34:00,991 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:34:07,105 basehttp "GET /ListItems/ HTTP/1.1" 200 80
+INFO 2024-10-16 19:34:29,909 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:34:31,545 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-16 19:34:51,838 log Not Found: /items/1/
+WARNING 2024-10-16 19:34:51,839 basehttp "GET /items/1/ HTTP/1.1" 404 3349
+WARNING 2024-10-16 19:34:59,861 log Not Found: /items/1/
+WARNING 2024-10-16 19:34:59,862 basehttp "GET /items/1/ HTTP/1.1" 404 3349
+INFO 2024-10-16 19:38:04,097 autoreload D:\Inventory_assignment\inventory_app\urls.py changed, reloading.
+INFO 2024-10-16 19:38:05,808 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:38:08,254 basehttp "GET /items/1/ HTTP/1.1" 200 78
+WARNING 2024-10-16 19:38:17,533 log Not Found: /items/2/
+WARNING 2024-10-16 19:38:17,534 basehttp "GET /items/2/ HTTP/1.1" 404 26
+INFO 2024-10-16 19:42:52,595 basehttp "PUT /items/1/ HTTP/1.1" 200 79
+INFO 2024-10-16 19:43:00,877 basehttp "GET /ListItems/ HTTP/1.1" 200 81
+INFO 2024-10-16 19:43:09,610 basehttp "POST /items/ HTTP/1.1" 201 78
+INFO 2024-10-16 19:43:23,415 basehttp "DELETE /items/1/ HTTP/1.1" 204 39
+INFO 2024-10-16 19:43:31,562 basehttp "GET /ListItems/ HTTP/1.1" 200 80
+WARNING 2024-10-16 19:43:40,041 log Bad Request: /items/
+WARNING 2024-10-16 19:43:40,042 basehttp "POST /items/ HTTP/1.1" 400 48
+INFO 2024-10-16 19:44:04,925 basehttp "POST /items/ HTTP/1.1" 201 65
+INFO 2024-10-16 19:44:09,878 basehttp "GET /ListItems/ HTTP/1.1" 200 146
+INFO 2024-10-16 19:51:30,535 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:51:32,215 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:51:56,644 autoreload D:\Inventory_assignment\inventory_app\urls.py changed, reloading.
+INFO 2024-10-16 19:51:58,341 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:52:24,851 basehttp "GET /test-redis/ HTTP/1.1" 200 31
+INFO 2024-10-16 19:53:28,282 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:53:30,167 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:54:28,002 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:54:29,712 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:54:47,757 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:54:49,407 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:56:45,968 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:56:47,650 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-16 19:56:51,183 log Internal Server Error: /test-redis/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\inventory_app\views.py", line 77, in get
+    value=cache.get_many()
+          ^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 122, in get_many
+    return self.client.get_many(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DefaultClient.get_many() missing 1 required positional argument: 'keys'
+ERROR 2024-10-16 19:56:51,202 basehttp "GET /test-redis/ HTTP/1.1" 500 101430
+INFO 2024-10-16 19:57:20,403 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-16 19:57:22,028 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 19:57:26,776 basehttp "GET /test-redis/ HTTP/1.1" 200 17
+INFO 2024-10-16 20:02:22,622 basehttp "GET /test-redis/ HTTP/1.1" 200 17
+INFO 2024-10-16 20:02:41,989 basehttp "GET /ListItems/ HTTP/1.1" 200 146
+WARNING 2024-10-16 22:32:13,776 log Unauthorized: /items/
+WARNING 2024-10-16 22:32:13,799 log Unauthorized: /items/2/
+WARNING 2024-10-16 22:32:13,804 log Unauthorized: /items/3/
+WARNING 2024-10-16 22:32:13,812 log Unauthorized: /items/4/
+ERROR 2024-10-16 22:56:41,065 log Internal Server Error: /items/3/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 104, in delete
+    result = self.client.delete(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 375, in delete
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\inventory_app\views.py", line 59, in delete
+    cache.delete(f'item_{item_id}')
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 373, in delete
+    return client.delete(self.make_key(key, version=version, prefix=prefix))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\commands\core.py", line 1705, in delete
+    return self.execute_command("DEL", *names)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+ERROR 2024-10-16 22:56:44,457 log Internal Server Error: /items/4/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 260, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\inventory_app\views.py", line 31, in get
+    item = cache.get(cache_key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 258, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\commands\core.py", line 1822, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+ERROR 2024-10-16 22:56:47,704 log Internal Server Error: /items/5/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 104, in delete
+    result = self.client.delete(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 375, in delete
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\inventory_app\views.py", line 51, in put
+    cache.delete(f'item_{item_id}')
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\client\default.py", line 373, in delete
+    return client.delete(self.make_key(key, version=version, prefix=prefix))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\commands\core.py", line 1705, in delete
+    return self.execute_command("DEL", *names)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "D:\Inventory_assignment\env\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+INFO 2024-10-16 23:49:52,146 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-16 23:50:01,747 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:50:01,755 basehttp "GET / HTTP/1.1" 500 132395
+ERROR 2024-10-16 23:50:02,046 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:50:02,054 basehttp "GET /favicon.ico HTTP/1.1" 500 132298
+INFO 2024-10-16 23:52:31,423 autoreload D:\Inventory_assignment\inventory_project\settings.py changed, reloading.
+INFO 2024-10-16 23:52:32,438 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-16 23:52:45,490 log Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:52:45,502 basehttp "GET / HTTP/1.1" 500 132742
+ERROR 2024-10-16 23:52:45,858 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:52:45,866 basehttp "GET /favicon.ico HTTP/1.1" 500 132508
+ERROR 2024-10-16 23:52:56,685 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:52:56,693 basehttp "GET /admin/ HTTP/1.1" 500 132892
+ERROR 2024-10-16 23:52:56,925 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\middleware.py", line 97, in __call__
+    rendered = toolbar.render_toolbar()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\toolbar.py", line 84, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+ERROR 2024-10-16 23:52:56,932 basehttp "GET /favicon.ico HTTP/1.1" 500 132514
+INFO 2024-10-16 23:55:16,327 autoreload D:\Inventory_assignment\inventory_project\urls.py changed, reloading.
+INFO 2024-10-16 23:55:17,214 autoreload Watching for file changes with StatReloader
+INFO 2024-10-16 23:55:21,912 basehttp "GET /admin/ HTTP/1.1" 200 21479
+INFO 2024-10-16 23:55:21,931 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,933 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,937 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,940 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,942 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,942 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,946 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16675
+INFO 2024-10-16 23:55:21,951 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,958 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,959 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:21,960 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-10-16 23:55:21,966 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-10-16 23:55:22,024 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+WARNING 2024-10-16 23:55:22,108 log Not Found: /favicon.ico
+WARNING 2024-10-16 23:55:22,109 basehttp "GET /favicon.ico HTTP/1.1" 404 16934
+INFO 2024-10-16 23:55:39,216 basehttp "GET /admin/ HTTP/1.1" 200 21023
+INFO 2024-10-16 23:55:48,298 basehttp "GET /admin/ HTTP/1.1" 200 21478
+INFO 2024-10-16 23:55:52,188 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 23767
+INFO 2024-10-16 23:55:52,204 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,204 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,204 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,204 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,205 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,210 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,211 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,213 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,213 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,225 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:52,285 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 23:55:52,309 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:55,924 basehttp "GET /admin/inventory_app/item/3/change/ HTTP/1.1" 200 24464
+INFO 2024-10-16 23:55:55,935 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:55,935 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:55,939 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:55,945 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:55:56,108 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 23:56:02,740 basehttp "GET /__debug__/render_panel/?store_id=b7e00018785d4ea28ffd784ae8446214&panel_id=CachePanel HTTP/1.1" 200 1413
+WARNING 2024-10-16 23:58:38,159 log Unauthorized: /items/1/
+WARNING 2024-10-16 23:58:38,160 basehttp "GET /items/1/ HTTP/1.1" 401 183
+INFO 2024-10-16 23:58:53,073 basehttp "GET /admin/inventory_app/item/3/change/ HTTP/1.1" 200 24463
+INFO 2024-10-16 23:58:53,084 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:58:53,084 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:58:53,151 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-16 23:58:53,164 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-16 23:58:53,172 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-16 23:59:10,325 basehttp "GET /__debug__/render_panel/?store_id=ce397777c3044b4892d4699f2ced11e2&panel_id=SettingsPanel HTTP/1.1" 200 27286
+WARNING 2024-10-17 00:01:02,787 log Method Not Allowed: /api/token/
+WARNING 2024-10-17 00:01:02,788 basehttp "GET /api/token/ HTTP/1.1" 405 20822
+INFO 2024-10-17 00:01:02,815 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,816 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,817 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,818 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,822 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,823 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,826 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,826 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,830 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,832 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,833 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,834 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,835 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,876 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,928 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:02,931 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:14,062 basehttp "POST /api/token/ HTTP/1.1" 200 21265
+WARNING 2024-10-17 00:01:34,226 log Not Found: /items/1/
+WARNING 2024-10-17 00:01:34,227 basehttp "GET /items/1/ HTTP/1.1" 404 26
+INFO 2024-10-17 00:01:42,962 basehttp "GET /items/2/ HTTP/1.1" 200 78
+INFO 2024-10-17 00:01:50,089 basehttp "GET /__debug__/render_panel/?store_id=ce397777c3044b4892d4699f2ced11e2&panel_id=CachePanel HTTP/1.1" 200 1413
+INFO 2024-10-17 00:01:53,353 basehttp "GET /admin/inventory_app/item/3/change/ HTTP/1.1" 200 24464
+INFO 2024-10-17 00:01:53,370 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:53,370 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:53,533 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 00:01:53,545 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:53,554 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:01:55,822 basehttp "GET /__debug__/render_panel/?store_id=339b1d61894d4f68be0196e2ebe3b62d&panel_id=CachePanel HTTP/1.1" 200 1413
+INFO 2024-10-17 00:02:35,732 basehttp "GET /items/2/ HTTP/1.1" 200 78
+INFO 2024-10-17 00:02:46,078 basehttp "GET /admin/inventory_app/item/3/change/ HTTP/1.1" 200 24463
+INFO 2024-10-17 00:02:46,259 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 00:02:48,752 basehttp "GET /__debug__/render_panel/?store_id=dcb0665006c7426bae839b59b870c2bc&panel_id=CachePanel HTTP/1.1" 200 1413
+INFO 2024-10-17 00:02:49,829 basehttp "GET /__debug__/render_panel/?store_id=dcb0665006c7426bae839b59b870c2bc&panel_id=AlertsPanel HTTP/1.1" 200 66
+INFO 2024-10-17 00:03:59,840 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:04:00,707 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:04:05,598 basehttp "GET /items/2/ HTTP/1.1" 200 78
+INFO 2024-10-17 00:05:51,183 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:05:52,083 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:05:54,692 basehttp "GET /items/2/ HTTP/1.1" 200 78
+INFO 2024-10-17 00:09:10,515 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:10:45,908 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:10:46,854 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:10:59,736 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-17 00:11:47,110 log Not Found: /
+WARNING 2024-10-17 00:11:47,111 basehttp "GET / HTTP/1.1" 404 16872
+INFO 2024-10-17 00:11:47,127 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:11:47,127 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:11:47,131 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:11:47,166 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:12:02,978 basehttp "GET /items/2/ HTTP/1.1" 200 78
+INFO 2024-10-17 00:12:06,338 basehttp "GET /__debug__/render_panel/?store_id=75379e569ec14e8b83bba9fa106c20a0&panel_id=CachePanel HTTP/1.1" 200 1413
+WARNING 2024-10-17 00:12:19,880 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:19,881 basehttp "GET /items/2/ HTTP/1.1" 401 18353
+WARNING 2024-10-17 00:12:29,999 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:29,999 basehttp "GET /items/2/?format=json HTTP/1.1" 401 58
+WARNING 2024-10-17 00:12:33,498 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:33,500 basehttp "GET /items/2/ HTTP/1.1" 401 18353
+WARNING 2024-10-17 00:12:36,625 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:36,626 basehttp "GET /items/2/ HTTP/1.1" 401 18354
+WARNING 2024-10-17 00:12:38,958 log Unauthorized: /items/
+WARNING 2024-10-17 00:12:38,959 basehttp "GET /items/ HTTP/1.1" 401 16936
+WARNING 2024-10-17 00:12:42,056 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:42,056 basehttp "GET /items/2/ HTTP/1.1" 401 18353
+WARNING 2024-10-17 00:12:58,735 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:12:58,736 basehttp "GET /items/2/?format=api HTTP/1.1" 401 18408
+WARNING 2024-10-17 00:13:01,810 log Unauthorized: /items/2/
+WARNING 2024-10-17 00:13:01,811 basehttp "GET /items/2/?format=api HTTP/1.1" 401 18408
+INFO 2024-10-17 00:13:41,963 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:13:42,964 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:13:50,350 basehttp "GET /items/2/ HTTP/1.1" 200 21368
+INFO 2024-10-17 00:14:00,798 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=CachePanel HTTP/1.1" 200 3876
+INFO 2024-10-17 00:20:31,553 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=StaticFilesPanel HTTP/1.1" 200 42997
+INFO 2024-10-17 00:20:45,788 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=VersionsPanel HTTP/1.1" 200 1047
+INFO 2024-10-17 00:20:51,394 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=HistoryPanel HTTP/1.1" 200 2306
+INFO 2024-10-17 00:20:51,449 basehttp "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-10-17 00:20:56,187 basehttp "GET /__debug__/history_sidebar/?store_id=774bfa3a4742432b9661517e9e6284bd&exclude_history=True HTTP/1.1" 200 8355
+INFO 2024-10-17 00:20:57,860 basehttp "GET /__debug__/history_sidebar/?store_id=774bfa3a4742432b9661517e9e6284bd&exclude_history=True HTTP/1.1" 200 8355
+INFO 2024-10-17 00:20:59,039 basehttp "GET /__debug__/history_sidebar/?store_id=774bfa3a4742432b9661517e9e6284bd&exclude_history=True HTTP/1.1" 200 8355
+INFO 2024-10-17 00:21:11,447 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=HeadersPanel HTTP/1.1" 200 4430
+INFO 2024-10-17 00:21:19,962 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=RequestPanel HTTP/1.1" 200 2273
+INFO 2024-10-17 00:21:32,947 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=SQLPanel HTTP/1.1" 200 115
+INFO 2024-10-17 00:21:38,031 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=TemplatesPanel HTTP/1.1" 200 28672
+INFO 2024-10-17 00:21:46,089 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=AlertsPanel HTTP/1.1" 200 66
+INFO 2024-10-17 00:21:47,689 basehttp "GET /__debug__/render_panel/?store_id=774bfa3a4742432b9661517e9e6284bd&panel_id=CachePanel HTTP/1.1" 200 3876
+INFO 2024-10-17 00:21:54,741 basehttp "GET /items/2/ HTTP/1.1" 200 21367
+INFO 2024-10-17 00:21:54,764 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:21:54,764 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:21:54,817 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:21:54,838 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:22:02,213 basehttp "GET /__debug__/render_panel/?store_id=f40abf9d21414dac911c4fa281cf93d3&panel_id=CachePanel HTTP/1.1" 200 3875
+INFO 2024-10-17 00:22:10,808 basehttp "GET /items/3/ HTTP/1.1" 200 21351
+INFO 2024-10-17 00:22:13,465 basehttp "GET /__debug__/render_panel/?store_id=89868aaa371b46fdbc2159b727405a19&panel_id=CachePanel HTTP/1.1" 200 6093
+INFO 2024-10-17 00:22:46,718 basehttp "GET /items/3/ HTTP/1.1" 200 21354
+INFO 2024-10-17 00:22:49,906 basehttp "GET /__debug__/render_panel/?store_id=57b2358b6f724679824debb547c18ef4&panel_id=CachePanel HTTP/1.1" 200 3874
+INFO 2024-10-17 00:23:06,121 basehttp "GET /__debug__/render_panel/?store_id=57b2358b6f724679824debb547c18ef4&panel_id=SignalsPanel HTTP/1.1" 200 2264
+INFO 2024-10-17 00:40:57,980 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:40:59,985 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-17 00:41:16,759 log Internal Server Error: /ListItems/
+Traceback (most recent call last):
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Inventory_assignment\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\inventory_app\views.py", line 75, in get
+    cache.set_many(cache_key,items,timeout=60*3)
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\debug_toolbar\panels\cache.py", line 149, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Inventory_assignment\env\Lib\site-packages\django_redis\cache.py", line 126, in set_many
+    return self.client.set_many(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DefaultClient.set_many() got multiple values for argument 'timeout'
+ERROR 2024-10-17 00:41:16,995 basehttp "GET /ListItems/ HTTP/1.1" 500 128435
+INFO 2024-10-17 00:41:17,021 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:41:17,022 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:41:17,124 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:41:17,207 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:42:28,092 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:42:29,780 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:43:00,572 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:43:02,323 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:43:03,844 basehttp "GET /ListItems/ HTTP/1.1" 200 18684
+INFO 2024-10-17 00:43:07,331 basehttp "GET /__debug__/render_panel/?store_id=3ff550690f874c498b961031f91d58df&panel_id=CachePanel HTTP/1.1" 200 6130
+INFO 2024-10-17 00:54:01,747 autoreload D:\Inventory_assignment\inventory_app\views.py changed, reloading.
+INFO 2024-10-17 00:54:03,806 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 00:58:18,945 basehttp "GET /admin/ HTTP/1.1" 200 21479
+INFO 2024-10-17 00:58:18,976 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:18,977 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:18,992 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:18,995 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:18,999 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,003 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,008 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,013 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,023 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,027 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,028 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,037 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:19,039 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,395 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 23767
+INFO 2024-10-17 00:58:22,422 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,425 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,428 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,429 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,433 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,438 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,438 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,440 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,441 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,462 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-17 00:58:22,606 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 00:58:22,651 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-17 01:07:21,516 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 01:07:36,857 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 23767
+INFO 2024-10-17 01:07:36,904 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 01:07:36,906 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 01:07:37,031 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 01:07:37,085 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 01:07:37,174 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-10-17 01:07:39,717 basehttp "GET /admin/inventory_app/item/ HTTP/1.1" 200 23767
+INFO 2024-10-17 01:07:39,975 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 01:07:43,263 basehttp "GET /__debug__/render_panel/?store_id=8016207f94934f5b949604fae0e18447&panel_id=CachePanel HTTP/1.1" 200 1413
+INFO 2024-10-17 01:27:12,610 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 26118
+INFO 2024-10-17 01:27:12,633 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,634 basehttp "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,640 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,641 basehttp "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,758 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-10-17 01:27:12,783 basehttp "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,793 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,793 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-17 01:27:12,835 basehttp "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
