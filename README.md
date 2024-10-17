@@ -38,16 +38,23 @@ MIDDLEWARE = [
 API Endpoints
 
 Method	Endpoint	Description
+
 GET	   items/	Get a list of all items
+
 POST	items/	Add a new item
+
 GET	   items/<id>/	Get details of a specific item
+
 PUT	   items/<id>/	Update an item
+
 DELETE items/<id>/	Delete an item
 
 POST   'jwt/token/', TO GENERATE ACCESS TOKEN AND REFRESH TOKEN
+
 POST   'jwt/token/refresh/', USINF REFRESH TOKEN GENERATE ACCESS TOKEN
 
 Add the following line to your project's URL patterns to enable the Debug Toolbar:
+
 path('__debug__/', include('debug_toolbar.urls')),  in project urls patterns to view debugtoolbar 
 
 Log File
