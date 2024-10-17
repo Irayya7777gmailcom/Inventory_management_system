@@ -26,8 +26,8 @@ class ItemCreateView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class ItemDetailView(APIView):
-    # permission_classes = [IsAuthenticated]
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticated]
+    #permission_classes = [AllowAny]
 
     def get(self, request, item_id):
         cache_key = f'item_id_{item_id}'
